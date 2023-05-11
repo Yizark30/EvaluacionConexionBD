@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ni.edu.uca.sistematicopersistencia"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\Alec\.gradle\caches\transforms-3\5614927258679da8b6de6e3421d3a5da\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="ni.edu.uca.sistematicopersistencia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\Alec\.gradle\caches\transforms-3\5614927258679da8b6de6e3421d3a5da\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\Alec\.gradle\caches\transforms-3\5614927258679da8b6de6e3421d3a5da\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="ni.edu.uca.sistematicopersistencia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\Alec\.gradle\caches\transforms-3\5614927258679da8b6de6e3421d3a5da\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Alec\.gradle\caches\transforms-3\5614927258679da8b6de6e3421d3a5da\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml:5:5-23:19
+18        android:allowBackup="true"
+18-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\Alec\.gradle\caches\transforms-3\5614927258679da8b6de6e3421d3a5da\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml:10:9-41
+26        android:supportsRtl="true"
+26-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml:11:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.SistematicoPersistencia" >
+28-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml:12:9-61
+29        <activity
+29-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml:14:9-22:20
+30            android:name="ni.edu.uca.sistematicopersistencia.MainActivity"
+30-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml:15:13-41
+31            android:exported="true" >
+31-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml:16:13-36
+32            <intent-filter>
+32-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml:17:13-21:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml:18:17-69
+33-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml:18:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml:20:17-77
+35-->C:\Users\Alec\AndroidStudioProjects\EvaluacionConexionBD\app\src\main\AndroidManifest.xml:20:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <service
+39-->[androidx.room:room-runtime:2.5.1] C:\Users\Alec\.gradle\caches\transforms-3\28f435e848e3927e3bb93ad17940e9b9\transformed\room-runtime-2.5.1\AndroidManifest.xml:24:9-28:63
+40            android:name="androidx.room.MultiInstanceInvalidationService"
+40-->[androidx.room:room-runtime:2.5.1] C:\Users\Alec\.gradle\caches\transforms-3\28f435e848e3927e3bb93ad17940e9b9\transformed\room-runtime-2.5.1\AndroidManifest.xml:25:13-74
+41            android:directBootAware="true"
+41-->[androidx.room:room-runtime:2.5.1] C:\Users\Alec\.gradle\caches\transforms-3\28f435e848e3927e3bb93ad17940e9b9\transformed\room-runtime-2.5.1\AndroidManifest.xml:26:13-43
+42            android:exported="false" />
+42-->[androidx.room:room-runtime:2.5.1] C:\Users\Alec\.gradle\caches\transforms-3\28f435e848e3927e3bb93ad17940e9b9\transformed\room-runtime-2.5.1\AndroidManifest.xml:27:13-37
+43
+44        <uses-library
+44-->[androidx.window:window:1.0.0] C:\Users\Alec\.gradle\caches\transforms-3\74122c9b3d5ac0fe7b998005e4b56609\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+45            android:name="androidx.window.extensions"
+45-->[androidx.window:window:1.0.0] C:\Users\Alec\.gradle\caches\transforms-3\74122c9b3d5ac0fe7b998005e4b56609\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+46            android:required="false" />
+46-->[androidx.window:window:1.0.0] C:\Users\Alec\.gradle\caches\transforms-3\74122c9b3d5ac0fe7b998005e4b56609\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+47        <uses-library
+47-->[androidx.window:window:1.0.0] C:\Users\Alec\.gradle\caches\transforms-3\74122c9b3d5ac0fe7b998005e4b56609\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+48            android:name="androidx.window.sidecar"
+48-->[androidx.window:window:1.0.0] C:\Users\Alec\.gradle\caches\transforms-3\74122c9b3d5ac0fe7b998005e4b56609\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+49            android:required="false" />
+49-->[androidx.window:window:1.0.0] C:\Users\Alec\.gradle\caches\transforms-3\74122c9b3d5ac0fe7b998005e4b56609\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alec\.gradle\caches\transforms-3\68d19f311aed5c4d976c4ac2a96dd8a3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alec\.gradle\caches\transforms-3\68d19f311aed5c4d976c4ac2a96dd8a3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+53            android:authorities="ni.edu.uca.sistematicopersistencia.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alec\.gradle\caches\transforms-3\68d19f311aed5c4d976c4ac2a96dd8a3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alec\.gradle\caches\transforms-3\68d19f311aed5c4d976c4ac2a96dd8a3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alec\.gradle\caches\transforms-3\68d19f311aed5c4d976c4ac2a96dd8a3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alec\.gradle\caches\transforms-3\68d19f311aed5c4d976c4ac2a96dd8a3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alec\.gradle\caches\transforms-3\68d19f311aed5c4d976c4ac2a96dd8a3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Alec\.gradle\caches\transforms-3\a4ce70e639a94d2c9d1bc5925863e265\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Alec\.gradle\caches\transforms-3\a4ce70e639a94d2c9d1bc5925863e265\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Alec\.gradle\caches\transforms-3\a4ce70e639a94d2c9d1bc5925863e265\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>
